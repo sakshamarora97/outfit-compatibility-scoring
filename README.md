@@ -1,5 +1,6 @@
 # outfit-compatibility-scoring
-Course Project for CSE 6240
+Fashion Recommendation: Outfit Compatibility using GNN
+Course Project for CSE 6240 Web Search and Text Mining
 ## Abstract
 Numerous industries have benefited from the use of machine learning, and the fashion industry is no exception. By gaining a better
 understanding of what makes a "good" outfit, companies can provide useful product recommendations to their users. In this project,
