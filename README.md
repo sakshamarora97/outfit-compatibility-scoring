@@ -18,7 +18,7 @@ performance on both tasks. On top of replicating the results of the
 two papers we also tried to use embeddings generated from a vision
 transformer (ViT) and witness enhanced prediction accuracy across
 the board.
-## INTRODUCTION
+## Introduction
 
 ### 2.1 Objective
 The objective of this paper is to explore the use of different graphbased frameworks for the representation of clothing/accessory
