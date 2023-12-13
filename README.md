@@ -22,8 +22,6 @@ the board.
 ## Introduction
 
 ### 2.1 Objective
-<img width="930" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/38cb9d3c-2010-444e-851a-2530dcd9cf60">
-
 The objective of this paper is to explore the use of different graphbased frameworks for the representation of clothing/accessory
 items and outfits in the task of fashion recommendation. We aim
 to tackle the practical problem of fashion recommendation, specifically what item matches and compliments an outfit. The main
@@ -33,6 +31,8 @@ of Graph Neural Networks (GNNs) to create embeddings of all
 items in the same outfit. We then compare the performance of these
 two techniques against each other. We also look at how different
 modalities of representing items influence performance.
+<img width="900" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/add8231e-d355-4b27-93c3-e25ab2f584f7">
+
 
 ### 2.2 Dataset
 <img width="443" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/c10be340-325d-4ee0-8352-0e6ea3a9d475">
