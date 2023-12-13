@@ -31,6 +31,7 @@ of Graph Neural Networks (GNNs) to create embeddings of all
 items in the same outfit. We then compare the performance of these
 two techniques against each other. We also look at how different
 modalities of representing items influence performance.
+
 <img width="600" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/add8231e-d355-4b27-93c3-e25ab2f584f7">
 
 
@@ -39,7 +40,8 @@ We use the Polyvore dataset which consists of thousands of curated
 outfits by experts. Specifically it contains not only the images of
 the products but also their textual descriptions and other metadata.
 We have explored the dataset in more detail in Section 4.
-<img width="443" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/c10be340-325d-4ee0-8352-0e6ea3a9d475">
+
+<img width="300" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/c10be340-325d-4ee0-8352-0e6ea3a9d475">
 
 ### 2.3 Method
 We use two different methods involving GNNs to create image and
@@ -57,6 +59,7 @@ The second approach, HGNN (Hypergraph-GNN) [5], uses hyperedges to denote each o
 of a graph in which an edge can join any number of nodes. Using
 this approach, theoretically, captures more complex interactions between each item in an outfit leading to key features being captured
 accurately in the embeddings.
+
 <img width="1029" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/1546b298-e9bf-41f6-8c6a-d0dc3eb323e1">
 
 
@@ -68,8 +71,9 @@ The experimental results, which are presented in section 8, firstly,
 show that the HGNN representation is marginal improvement over
 the NGNN in terms of accuracy by about 1% and 11% in the fill-inthe-blank and compatibility prediction tasks, respectively. Secondly,
 the accuracy and AUC metrics are better using a multi-modal approach rather than text-only or visual-only approaches.
-<img width="535" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/bac70c3a-ebba-4eb1-831c-53d980b61f69">
-<img width="526" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/afbb4ff8-a5ca-4315-94d2-f342002fefdd">
+
+<img width="400" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/bac70c3a-ebba-4eb1-831c-53d980b61f69">
+<img width="400" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/afbb4ff8-a5ca-4315-94d2-f342002fefdd">
 
 ### 2.5 Impact
 The fashion graphs of NGNN and HGNN frameworks demonstrated
