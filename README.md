@@ -1,6 +1,6 @@
-# outfit-compatibility-scoring
-Fashion Recommendation: Outfit Compatibility using GNN
-Course Project for CSE 6240 Web Search and Text Mining
+# Fashion Recommendation: Outfit Compatibility using GNN
+<img width="481" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/97ff2dc7-d321-45a5-83af-ff14b0c8ee3b">
+
 ## Abstract
 Numerous industries have benefited from the use of machine learning, and the fashion industry is no exception. By gaining a better
 understanding of what makes a "good" outfit, companies can provide useful product recommendations to their users. In this project,
