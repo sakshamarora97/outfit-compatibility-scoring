@@ -42,8 +42,6 @@ We have explored the dataset in more detail in Section 4.
 <img width="443" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/c10be340-325d-4ee0-8352-0e6ea3a9d475">
 
 ### 2.3 Method
-<img width="1005" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/2e236209-bb4d-46de-8303-9767515cadf4">
-
 We use two different methods involving GNNs to create image and
 text embeddings. A GNN learns a target node’s representation by
 propagating the neighbouring information in an iterative manner
@@ -59,6 +57,8 @@ The second approach, HGNN (Hypergraph-GNN) [5], uses hyperedges to denote each o
 of a graph in which an edge can join any number of nodes. Using
 this approach, theoretically, captures more complex interactions between each item in an outfit leading to key features being captured
 accurately in the embeddings.
+<img width="1029" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/1546b298-e9bf-41f6-8c6a-d0dc3eb323e1">
+
 
 ### 2.4 Comparison Results
 We used two tasks to validate our models, namely (1) Fill-In-TheBlank (FITB) tasks where an item is selected from multiple outfit
@@ -68,6 +68,8 @@ The experimental results, which are presented in section 8, firstly,
 show that the HGNN representation is marginal improvement over
 the NGNN in terms of accuracy by about 1% and 11% in the fill-inthe-blank and compatibility prediction tasks, respectively. Secondly,
 the accuracy and AUC metrics are better using a multi-modal approach rather than text-only or visual-only approaches.
+<img width="535" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/bac70c3a-ebba-4eb1-831c-53d980b61f69">
+<img width="526" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/afbb4ff8-a5ca-4315-94d2-f342002fefdd">
 
 ### 2.5 Impact
 The fashion graphs of NGNN and HGNN frameworks demonstrated
