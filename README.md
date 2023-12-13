@@ -31,7 +31,7 @@ of Graph Neural Networks (GNNs) to create embeddings of all
 items in the same outfit. We then compare the performance of these
 two techniques against each other. We also look at how different
 modalities of representing items influence performance.
-<img width="900" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/add8231e-d355-4b27-93c3-e25ab2f584f7">
+<img width="600" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/add8231e-d355-4b27-93c3-e25ab2f584f7">
 
 
 ### 2.2 Dataset
