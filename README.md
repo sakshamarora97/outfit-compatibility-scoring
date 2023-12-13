@@ -35,12 +35,12 @@ modalities of representing items influence performance.
 
 
 ### 2.2 Dataset
-<img width="443" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/c10be340-325d-4ee0-8352-0e6ea3a9d475">
-
 We use the Polyvore dataset which consists of thousands of curated
 outfits by experts. Specifically it contains not only the images of
 the products but also their textual descriptions and other metadata.
 We have explored the dataset in more detail in Section 4.
+<img width="443" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/c10be340-325d-4ee0-8352-0e6ea3a9d475">
+
 ### 2.3 Method
 <img width="1005" alt="image" src="https://github.com/sakshamarora97/outfit-compatibility-scoring/assets/62840042/2e236209-bb4d-46de-8303-9767515cadf4">
 
